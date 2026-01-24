@@ -1,5 +1,6 @@
 name: cd
-
+# Continuous Deployment for Terraform
+# Triggered on push to main branch or changes in src/terraform or workflow files
 on:
   push:
     branches:
